@@ -1,15 +1,18 @@
 <template>
-  <div class="container mt-5">
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a brief introduction to my website.</p>
+ 
+  <div class="video-container">
+    <video controls autoplay muted width="100%"></video>
+      <source src="../assets/RG-JrSoftware-Recruiter.mp4" type="video/mp4">
   </div>
 </template>
 
-<script setup>
-// Component logic here
+<script>
 </script>
 
 <style scoped>
-/* Additional component-specific styles */
+.video-container {
+  max-width: 1080px;
+  margin: auto;
+}
 </style>
 
