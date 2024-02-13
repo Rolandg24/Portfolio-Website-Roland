@@ -63,17 +63,30 @@
   src: url('/fonts/Sansation_Bold.ttf') format('truetype');
   font-weight: bold;
 }
+@font-face {
+  font-family: 'Sansation';
+  src: url('/fonts/Sansation_Regular.ttf') format('truetype');
+  font-weight: normal; /* Use 'normal' to differentiate from the bold variant */
+}
+.navbar-nav .nav-link, .navbar-brand {
+  font-family: 'Sansation', sans-serif;
+  font-weight: normal; /* This ensures the regular variant is used */
+}
 
+.navbar {
+  border: 1px solid #bdbdbdf0;
+  box-shadow: 7.5px 2px 10px rgba(109, 109, 109, 0.77); /* Subtle shadow */
+}
 .website-header {
   font-family: 'Sansation', sans-serif;
   color: black;
-  background-color: gray;
+  background-color: white;
   text-align: center;
   padding: 25px 0;
   font-size: 55px; /* Make sure you specify a value */
   letter-spacing: 10px;
   font-weight: bold;
-  
+  text-shadow: 0 2px 4px rgba(109, 109, 109, 0.77); /* Subtle shadow */ ;
 }
 </style>
 
