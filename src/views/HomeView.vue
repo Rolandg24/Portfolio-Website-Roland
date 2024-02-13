@@ -1,8 +1,9 @@
 <template>
  
   <div class="video-container">
-    <video controls autoplay muted width="100%"></video>
+    <video controls autoplay width="100%">
       <source src="../assets/RG-JrSoftware-Recruiter.mp4" type="video/mp4">
+    </video>
   </div>
 </template>
 
