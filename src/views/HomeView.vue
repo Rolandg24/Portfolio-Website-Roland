@@ -16,7 +16,14 @@
   margin: auto;
 }
 body {
-  background-color:antiquewhite; /* Light gray background */
+  background-color: antiquewhite; /* Sets a light background color for light mode */
 }
+/*
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black; Changes the background color to black in dark mode
+  }
+}
+*/
 </style>
 
