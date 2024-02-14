@@ -5,6 +5,13 @@
       <source src="../assets/RG-JrSoftware-Recruiter.mp4" type="video/mp4">
     </video>
   </div>
+  <hr>
+  <div class="timeline">
+    <div class="container">
+      <div class ></div>
+    </div>
+
+  </div>
 </template>
 
 <script>
