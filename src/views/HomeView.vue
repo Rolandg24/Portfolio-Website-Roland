@@ -1,37 +1,45 @@
 <template>
- <br>
-  <div class="video-container">
-    <video controls autoplay width="100%">
-      <source src="../assets/RG-JrSoftware-Recruiter.mp4" type="video/mp4">
-    </video>
+  <br />
+  <div class="video-section">
+    <div class="video-container">
+      <video controls autoplay width="100%">
+        <source src="../assets/RG-JrSoftware-Recruiter.mp4" type="video/mp4" />
+      </video>
+    </div>
   </div>
-  <hr>
+  <hr />
   <body>
-    <div class="container">
-      <div class="card">
-        <img src="../assets/TheWhoAmI_img.png">
-      </div>
-      <div class="card">
-        <img src="../assets/TheWhatIDo_img.png">
-      </div>
-      <div class="card">
-        <img src="../assets/TheWhereOhio_img.png">
-      </div>
-      <div class="card">
-        <img src="../assets/TheWhy_img.png">
+    <div class="content-1-section">
+      <div class="container">
+        <div class="card">
+          <img src="../assets/TheWhoAmI_img.png" />
+        </div>
+        <div class="card">
+          <img src="../assets/TheWhatIDo_img.png" />
+        </div>
+        <div class="card">
+          <img src="../assets/TheWhereOhio_img.png" />
+        </div>
+        <div class="card">
+          <img src="../assets/TheWhy_img.png" />
+        </div>
       </div>
     </div>
   </body>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style>
+.video-section{
+  background-color: black;
+}
 .video-container {
   max-width: 1080px;
   margin: auto;
 }
+
+
 /* Adjust the body to ensure the content is centered */
 
 body {
@@ -52,7 +60,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  gap: 0.50rem;
+  gap: 0.5rem;
   transition: all 400ms;
 }
 
@@ -84,4 +92,3 @@ body {
 }
 */
 </style>
-
