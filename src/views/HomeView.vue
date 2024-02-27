@@ -69,18 +69,12 @@ body {
   object-fit: cover;
 }
 
-.card:nth-child(odd) {
-  translate: 0 -20px;
-}
-.card:nth-child(even) {
-  translate: 0 20px;
-}
-
 .container:hover .card:not(:hover) {
   filter: grayscale(100%);
 }
 .card:hover {
-  flex: 3;
+  flex: 1.5;
+  transform: scale (1.05);
 }
 /*
 @media (prefers-color-scheme: dark) {
