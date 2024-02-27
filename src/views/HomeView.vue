@@ -9,16 +9,16 @@
   <body>
     <div class="container">
       <div class="card">
-        <img src="../assets/TheWho_image.png">
+        <img src="../assets/TheWhoAmI_img.png">
       </div>
       <div class="card">
-        <img src="../assets/TheWhat_image.png">
+        <img src="../assets/TheWhatIDo_img.png">
       </div>
       <div class="card">
-        <img src="../assets/TheWhere_image.png">
+        <img src="../assets/TheWhereOhio_img.png">
       </div>
       <div class="card">
-        <img src="../assets/TheWhy_image.png">
+        <img src="../assets/TheWhy_img.png">
       </div>
     </div>
   </body>
@@ -46,9 +46,9 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   max-width: 600px;
-  height: 800px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: stretch;
